@@ -1,0 +1,106 @@
+@import url(nullstyle.css);
+* {
+  font-family: "Roboto";
+  text-align: center;
+  color: #252525;
+}
+
+.container {
+  width: 1176px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 800px;
+  background: url(img/bg.jpg) center/cover no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(44, 44, 44, 0.85);
+}
+
+.header-wp
+.logo {
+  padding: 39px 0 53px;
+}
+.header-wp
+.logo img {
+  width: 83px;
+  height: 71px;
+}
+.header-wp
+.logo p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.title {
+  text-transform: uppercase;
+}
+.title h1, .title h2 {
+  color: #f9bf3b;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 55px;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+}
+.slogan p {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 900;
+  padding: 0 18px;
+}
+.slogan span {
+  display: inline-block;
+  height: 2px;
+  width: 292px;
+  background-color: #fff;
+}
+
+.subtitle {
+  font-size: 21px;
+  line-height: 28px;
+}
+.subtitle p {
+  color: #ffffff;
+  font-weight: 300;
+}
+.subtitle span {
+  color: #f9bf3b;
+  font-weight: 700;
+}
+
+.button {
+  padding: 25px 29px;
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.18);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.header__button {
+  margin: 73px 0;
+}
+
+.header__end p {
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Roboto - Thin";
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
